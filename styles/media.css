@@ -1,0 +1,56 @@
+@media (min-width: 460px) {
+    .Container {
+        max-width: 460px;
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 590px) {
+    .Container {
+        max-width: 590px;
+    }
+
+    .Title-h2 {
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Container {
+        max-width: 768px;
+    }
+
+    .Link {
+        position: relative;
+        display: inline-block;
+    }
+
+    .Link:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 1px;
+        background-color: dodgerblue;
+        bottom: 0;
+        transition: .3s;
+    }
+
+    .Link:hover:before {
+        width: 100%;
+    }
+}
+
+@media (min-width: 960px) {
+    .Container {
+        max-width: 855px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+

@@ -1,0 +1,204 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #b3d4fc;
+}
+
+::selection {
+    text-shadow: none;
+    background: #b3d4fc;
+}
+
+*:focus {
+    outline: none;
+}
+
+*:focus-visible {
+    /*outline: 2px solid var(--color-main1);*/
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input:-internal-autofill-selected,
+input:-internal-autofill-selected:hover,
+input:-internal-autofill-selected:focus,
+input:-internal-autofill-selected:active {
+    transition: all 9999s ease-in-out 0s;
+    transition-property: background-color, color;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: #828181;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555454;
+}
+
+html, body {
+    /*scrollbar-width: thin;*/
+    /*scrollbar-color: #555454 #828181;*/
+}
+
+html {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-size-adjust: none
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.Container {
+    max-width: 320px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.Title-h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #EE4D22;
+}
+
+.Title-h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.Link {
+    color: dodgerblue;
+}
+
+/*----------------------------------------*/
+.Header {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.About {
+    padding: 20px 0;
+}
+
+.About-Title {
+    padding: 0 20px 0 0;
+    margin-bottom: 20px;
+}
+
+.About-Text {
+    margin-bottom: 15px;
+}
+
+.About-Quote {
+    padding: 40px 20px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #EE4D22;
+
+    background-image: url('../images/quote-bg.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.About-Claim {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.About-ClaimText {
+    font-size: 13px;
+    color: #a7abb2;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.About-Hurry {
+    text-align: center;
+    font-size: 19px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: #fef5c4;
+    border: 1px solid #fadf98;
+    padding: 13px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.About-List {
+    background-color: #f5faf1;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 5px solid #cbe6b6;
+    margin-bottom: 20px;
+    list-style-type: decimal;
+}
+
+.About-Item {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.About-Item:last-child {
+    margin-bottom: 0;
+}
+
+.About-Item::marker {
+    font-weight: 700;
+}
+
+.About-GooglePlay {
+    margin-bottom: 60px;
+}
+
+.Footer {
+    padding: 30px 0;
+    background-color: #000000;
+    color: #a7abb2;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.Footer-Text {
+    margin-bottom: 30px;
+}
